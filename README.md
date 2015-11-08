@@ -1,2 +1,0 @@
-# fueltest
-fuelphp test project
