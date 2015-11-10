@@ -6,13 +6,13 @@
  */
 
 return array(
-	'active' => 'mongo',
-	'mongo'	 => array(
-		'default' => array(
-			'hostname' => 'localhost',
-			'database' => 'blog',
-			'username' => 'user',
-			'password' => 'pass',
+	'default' => array(
+		'type'	=> 'mysqli',
+		'connection' => array(
+			'hostname'	=> 'localhost',
+			'database'	=> 'c9',
+			'username'	=> 'ta5aka1',
+			'password'	=> 'as1233',
 		),
 	),
 );
