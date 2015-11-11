@@ -1,14 +1,18 @@
 <?php
 /**
- * The development database settings. These get merged with the global settings.
+ * Use this file to override global defaults.
+ *
+ * See the individual environment DB configs for specific config information.
  */
 
 return array(
 	'default' => array(
-		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=fuel_dev',
-			'username'   => 'root',
-			'password'   => 'root',
+		'type'	=> 'mysqli',
+		'connection' => array(
+			'hostname'	=> 'localhost',
+			'database'	=> 'c9',
+			'username'	=> 'ta5aka1',
+			'password'	=> 'as1233',
 		),
 	),
 );
